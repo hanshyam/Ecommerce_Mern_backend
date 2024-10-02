@@ -27,8 +27,6 @@ const productSchema = mongoose.Schema({
       required:true
      },
      brand: {
-      //   type: String,
-      //   enum:['Apple','Samsung','Lenovo'],
       type:String,
       required:true
      },
